@@ -1,3 +1,7 @@
+-- SPDX-FileCopyrightText: 2020 Henri Chain <henri.chain@enioka.com>
+--
+-- SPDX-License-Identifier: Apache-2.0
+
 local BasePlugin = require "kong.plugins.base_plugin"
 local UpstreamOAuth2 = BasePlugin:extend()
 local tokens = require "kong.plugins.upstream-oauth2.tokens"

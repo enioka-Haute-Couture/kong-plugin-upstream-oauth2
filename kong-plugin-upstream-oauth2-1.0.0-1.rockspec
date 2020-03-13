@@ -1,3 +1,7 @@
+-- SPDX-FileCopyrightText: 2020 Henri Chain <henri.chain@enioka.com>
+--
+-- SPDX-License-Identifier: Apache-2.0
+
 package = "kong-plugin-upstream-oauth2"
 
 version = "1.0.0-1"

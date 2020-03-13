@@ -1,3 +1,7 @@
+-- SPDX-FileCopyrightText: 2020 Henri Chain <henri.chain@enioka.com>
+--
+-- SPDX-License-Identifier: Apache-2.0
+
 local http = require "socket.http"
 local https = require "ssl.https"
 local cjson_safe = require "cjson.safe"
