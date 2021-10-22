@@ -4,14 +4,14 @@
 
 package = "kong-plugin-upstream-oauth2"
 
-version = "1.0.0-1"
+version = "1.0.1-1"
 
 local pluginName = package:match("^kong%-plugin%-(.+)$")  -- "upstream-oauth2"
 supported_platforms = {"linux", "macosx"}
 
 source = {
   url = "git://github.com/enioka/kong-plugin-upstream-oauth2",
-  tag = "1.0.0",
+  tag = "1.0.1",
 }
 description = {
   summary = "A Kong plugin to negotiate oauth2 authentication with upstream services",

@@ -37,6 +37,9 @@ jobs:
     - name: Install dkjson
       run: luarocks install dkjson
 
+    - name: Pack
+      run: luarocks pack
+
     - name: Build and upload to luarocks
       run: luarocks upload --api-key=${API_KEY} *.rockspec
       env:
